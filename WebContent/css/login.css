@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#main{
+	margin: 0px auto;
+	/*width: 1500px;
+	height: 950px;*/
+	width: 92%;
+	height: 1000px;
+}
+.main>img{	
+	margin: 0px auto;
+	/*width: 1500px;
+	height: 1000px;*/
+	width: 100%;
+	height: 1000px;
+	position: relative;	
+}
+h3{
+	font-size: 60px;
+	font-family: "楷体";
+	position: absolute;
+	top: 40px;
+	left: 690px;
+	letter-spacing: 7px;
+}
+.login{
+	position: absolute;
+	/*top: 267px;
+	left: 785px;*/
+	width:15%;
+	height:30%;
+	top: 30%;
+	left: 42%;
+	font-size: 28px;
+	line-height: 60px;
+	font-family: "楷体";
+}
+[type="text"],[type="password"],[type="submit"]{
+	
+	height: 38px;
+	width:188px
+}
+[type="submit"]{
+	/*border: rgba(58,172,226,0.5);
+	background-color: rgba(58,172,226,0.5);*/
+	width: 275px;
+	height: 35px;
+	font-size: 25px;
+	font-family: "楷体";
+}
+span{
+	font-size: 21px;
+	font-family: "楷体";
+}
+a{
+	color:rgb(51,138,234);
+	text-decoration: none;
+}
